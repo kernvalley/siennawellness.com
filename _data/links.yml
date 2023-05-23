@@ -1,7 +1,16 @@
 nav:
   - label: Home
-    icon: home
+    icon: logo
     href: /
+  - label: Blog
+    icon: note
+    href: /blog/
+  - label: Podiatry
+    icon: podiatry
+    href: /podiatry/
+  - label: Insurance
+    href: /insurance/
+    icon: insurance
 footer:
   - label: KernValley.US
     href: https://kernvalley.us

@@ -1,0 +1,21 @@
+---
+title: Blog
+layout: default.html
+eleventyExcludeFromCollections: true
+tag: directory
+permalink: "blog/page-{{ pagination.pageNumber | plus: 1 }}/index.html"
+pagination:
+  generatePageOnEmptyData: true
+  data: collections.posts
+  size: 2
+  alias: posts
+---
+<ol>
+{% for post in posts %}
+	<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ol>
+<a href="{{ pagination.href.first }}"{% if pagination.pageNumber == 0 %} inert=""{% endif %} title="Go to fist page">{% include "11ty-common/icon.html" icon: "go-first" height: 16 width: 16 fill: "currentColor" %}</a>
+<a href="{{ pagination.href.previous }}"{% if pagination.pageNumber == 0 %}inert=""{% endif %} rel="prev" title="Go to previous page">{% include "11ty-common/icon.html" icon: "go-prev" height: 16 width: 16 fill: "currentColor" %}</a>
+<a href="{{ pagination.href.next }}" rel="next" title="Go to next page"{% if pageingation.next.href == page.url %} inert=""{% endif %}>{% include "11ty-common/icon.html" icon: "go-next" height: 16 width: 16 fill: "currentColor" %}</a>
+<a href="{{ pagination.href.last }}" title="Go to last page"{% if pageingation.last.href == page.url %} inert=""{% endif %}>{% include "11ty-common/icon.html" icon: "go-last" height: 16 width: 16 fill: "currentColor" %}</a>

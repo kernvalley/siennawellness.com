@@ -1,0 +1,29 @@
+<footer id="footer" class="flex row space-evenly">
+	<div id="footer-contact" class="footer-section">
+		<img src="{{ org.logo }}" loading="lazy" alt="Sienna Wellness logo" aria-label="Sienna Wellness" />
+		<h4>Address</h4>
+		{%- include "11ty-common/address.html" address: org.address -%}
+		<h4>Hours</h4>
+		<ul>
+			{% for hours in org.contactPoint[0].hoursAvailable %}
+				<li><b>{{ hours.dayOfWeek | remove: 'https://schema.org/' }}</b> {{ hours.opens | time }} &mdash; {{ hours.closes | time }}</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="footer-posts" class="footer-section">
+		<h4>Recent Articles</h4>
+		<ul>
+			{% for post in collections.posts %}
+				<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="footer-documents" class="footer-section">
+		<h4>Documents</h4>
+		<ul>
+			{% for document in documents %}
+				<li>{%- include "document-link.html" file: document[0] -%}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</footer>

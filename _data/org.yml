@@ -1,0 +1,42 @@
+---
+'@context': https://schema.org
+'@type': MedicalOrganization
+name: Sienna Wellness
+url: https://www.siennawellness.com/
+logo: /img/logo.svg
+address:
+  '@type': PostalAddress
+  streetAddress: 6425 Lynch Canyon Dr.
+  addressLocality: Lake Isabella
+  addressRegion: CA
+  addressCountry: US
+  postalCode: 93240
+contactPoint:
+  - '@type': ContactPoint
+    name: Kern River Valley
+    telephone: +1-760-379-8630
+    faxNumber:  +1-760-379-7658
+    areaServed:
+      '@type': City
+      name: Lake Isabella
+    hoursAvailable:
+      - '@type': OpeningHoursSpecification
+        dayOfWeek: https://schema.org/Monday
+        opens: 08:00:00
+        closes: 18:00:00
+      - '@type': OpeningHoursSpecification
+        dayOfWeek: https://schema.org/Tuesday
+        opens: 08:00:00
+        closes: 18:00:00
+      - '@type': OpeningHoursSpecification
+        dayOfWeek: https://schema.org/Wednesday
+        opens: 08:00:00
+        closes: 18:00:00
+      - '@type': OpeningHoursSpecification
+        dayOfWeek: https://schema.org/Thursday
+        opens: 08:00:00
+        closes: 18:00:00
+      - '@type': OpeningHoursSpecification
+        dayOfWeek: https://schema.org/Friday
+        opens: 08:00:00
+        closes: 18:00:00

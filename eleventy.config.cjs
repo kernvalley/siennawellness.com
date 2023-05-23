@@ -5,7 +5,8 @@ const filters = require('@shgysk8zer0/11ty-filters');
 
 module.exports = function(eleventyConfig) {
 	Object.entries(filters).forEach(([filter, cb]) => eleventyConfig.addFilter(filter, cb));
-
+	eleventyConfig.addFilter('trim', input => input.trim());
+	eleventyConfig.addFilter('time', input => new Date(`2000-01-01T${input}`).toLocaleTimeString());
 	eleventyConfig.addFilter('is_icon', list => {
 		return JSON.stringify(list.filter(icon => typeof icon.purpose === 'string'));
 	});
@@ -17,13 +18,15 @@ module.exports = function(eleventyConfig) {
 	// These directories get copied to `_site/`
 	eleventyConfig.addPassthroughCopy('js');
 	eleventyConfig.addPassthroughCopy('css');
+	eleventyConfig.addPassthroughCopy('docs');
 	eleventyConfig.addPassthroughCopy('img');
 	eleventyConfig.addPassthroughCopy('_redirects');
 	eleventyConfig.addPassthroughCopy('robots.txt');
 
 	// Not including file extensions is slower, so alias theme
 	eleventyConfig.addLayoutAlias('post', '11ty-layouts/post.html');
-	eleventyConfig.addLayoutAlias('default', '11ty-layouts/default.html');
+	eleventyConfig.addLayoutAlias('default', 'default.html');
+	eleventyConfig.addLayoutAlias('page', 'page.html');
 
 	// Set global data/variables
 	// {{ environment }} -> 'production' | 'development'

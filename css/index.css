@@ -25,3 +25,7 @@ img.avatar {
 	vertical-align: middle;
 	margin-left: 1.2em;
 }
+
+.insurance-prefixes {
+	gap: 12px;
+}

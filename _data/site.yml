@@ -1,10 +1,10 @@
 ---
-title: '11ty Test'
+title: Sienna Wellness
 description: 'A test of Eleventy'
 repository:
   username: 'kernvalley'
-  project: '11ty-template'
-url: 'https://delicate-meringue-5c3db2.netlify.app/'
+  project: 'siennawellness.com'
+url: 'https://www.siennawellness.com'
 viewport: 'width=device-width'
 referrer: 'no-referrer'
 color-scheme: 'light dark'
@@ -12,4 +12,3 @@ og-type: 'website'
 base: '/'
 manifest: '/webapp.webmanifest'
 service_worker: '/service-worker.js'
-keep-kern-clean: true

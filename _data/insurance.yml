@@ -1,0 +1,606 @@
+---
+A:
+  - name: A&H limited health / A&H limited health
+    url: false
+  - name: AAG - American Administrative Group / AAG - American Administrative Group
+    url: false
+  - name: AARP / AARP Medicare Supplement Plans
+    url: false
+  - name: AARP / Medicare Complete
+    url: false
+  - name: AARP / United Healthcare
+    url: false
+  - name: ACE ESIS / ACE
+    url: false
+  - name: Administar federalm / Administar federalm
+    url: false
+  - name: Admiral life ins / Admiral life ins
+    url: false
+  - name: Advantra Freedom / Advantra Freedom
+    url: false
+  - name: Adventist Risk Management / Adventist Risk Management
+    url: false
+  - name: Aetna / Aetna Medicare
+    url: false
+  - name: Aetna / Aetna
+    url: false
+  - name: Aetna / SISC III
+    url: false
+  - name: Aetna / United Healthcare
+    url: false
+  - name: Aetna / CIGNA
+    url: false
+  - name: Aetna / Other
+    url: false
+  - name: aetna health of california / aetna health of california
+    url: false
+  - name: Aetna healthcare / Aetna healthcare
+    url: false
+  - name: Aetna life ins / life ins
+    url: false
+  - name: aetna supplemental / aetna supplemental
+    url: false
+  - name: Aetna US healthcare / Aetna US healthcare
+    url: false
+  - name: AFLAC / AFLAC
+    url: false
+  - name: Airconition / Airconition
+    url: false
+  - name: Alicare / Alicare
+    url: false
+  - name: Alpha fund / Alpha fund
+    url: false
+  - name: AMA Insurance Agency / AMA Insurance Agency
+    url: false
+  - name: Amalgamated Life / Amalgamated Life
+    url: false
+  - name: American claims / American claims
+    url: false
+  - name: American Medical and Life Insurance / American Medical and Life Insurance
+    url: false
+  - name: American Medical and Life Insurance Company / AMA
+    url: false
+  - name: American Postal Workers Union Health Plan / American Postal Workers Union Health Plan
+    url: false
+  - name: Anthem Blue Cross / Anthem Blue Cross
+    url: false
+  - name: Anthem Blue Cross / Covered California
+    url: false
+  - name: Anthem Blue Cross / PPO
+    url: false
+  - name: Anthem Blue Cross / Senior Secure Plan 11
+    url: false
+  - name: Anthem Blue Cross Blue Shield / Anthem Blue Cross Blue Shield
+    url: false
+  - name: Anthem blue cross sisc III / Anthem blue cross sisc III
+    url: false
+  - name: AR health plan / AR health plan
+    url: false
+  - name: Assurant Health / Assurant Health
+    url: false
+  - name: AVMA INSURANCE / AVMA
+    url: false
+B:
+  - name: Bankers Life and Casualty / Bankers Life and Casualty
+    url: false
+  - name: BCBS of Alaska / BCBS of Alaska
+    url: false
+  - name: BCC-SISC / BCC-SISC
+    url: false
+  - name: BCPPO LA Fire Fighters plan / BCPPO LA Fire Fighters plan
+    url: false
+  - name: Beech Street / Beech Street
+    url: false
+  - name: bfmc / BFMC
+    url: false
+  - name: bfmc / BFMC advantage plan
+    url: false
+  - name: Blue Card / Blue Choice HealthPlan 380.04
+    url: false
+  - name: Blue Cross Blue Shield of NM / Blue Cross Blue Shield of NM
+    url: false
+  - name: Blue Cross Of California / Blue Cross
+    url: false
+  - name: Blue Cross Of California / Sisc III Blue Cross
+    url: false
+  - name: Blue Cross Of California / Sisc III Blue Cross
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California
+    url: false
+  - name: Blue Cross Of California / Med Supp-Plan F
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California
+    url: false
+  - name: Blue Cross Of California / Anthem
+    url: false
+  - name: Blue Cross Of California / Anthem Blue Cross SISC III
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California, Senior Classic J, Medicare Supplement
+    url: false
+  - name: Blue Cross Of California / Baxter
+    url: false
+  - name: Blue Cross Of California / Anthem Blue Cross Pers Choice Basic
+    url: false
+  - name: Blue Cross Of California / Anthem BlueCross
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California 040
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California Medicare Supplement
+    url: false
+  - name: Blue Cross Of California / Blue Cross Of California Senior SmartChoice Plan
+    url: false
+  - name: Blue Cross Of California / Blue Cross Senior Secure
+    url: false
+  - name: Blue Cross Of California / Anthem Blue Cross
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California
+    url: false
+  - name: Blue Shield of CA / Blue Shield Medicare
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California, CALPERS ACCESS+
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California, AGO
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California, Family PPO
+    url: false
+  - name: Blue Shield of CA / Blue Shield of Calfornia
+    url: false
+  - name: Blue Shield of CA / Medicare Supplement
+    url: false
+  - name: Blue Shield of CA / Regence
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California Medicare Supplement
+    url: false
+  - name: Blue Shield of CA / Blue Shield of California Life and Health Insurance Company
+    url: false
+  - name: Blue Shield of CA / Shield Spectrum PPO Plan 750 Value
+    url: false
+  - name: Blue Shield of CA / UFCW & Employers TRUST
+    url: false
+  - name: Blue Shield of CA / BSC
+    url: false
+  - name: Blue Shield of CA / Covered California
+    url: false
+  - name: Blue Shield of California / Edison International
+    url: false
+  - name: Boon - Chapman Benefit Administrators Inc. / Boon - Chapman Benefit Administrators Inc.
+    url: false
+  - name: Bridgestone Claims Services / Bridgestone Claims Services
+    url: false
+C:
+  - name: Calf Insurance / Calf Insurance
+    url: false
+  - name: California Auto Claims / California Auto Claims/State Farm
+    url: false
+  - name: California Field Ironworkers Trust Fund / California Field Ironworkers Trust  Fund
+    url: false
+  - name: California Insurance Guarantee Association / Worker comp
+    url: false
+  - name: CALIFORNIA WATER SERVICE / CALIFORNIA WATER SERVICE
+    url: false
+  - name: Cape Health Plan / Cape Health Plan
+    url: false
+  - name: Care 1st Health Plan of AZ / Care 1st Health Plan of AZ
+    url: false
+  - name: Caremore / Caremore
+    url: false
+  - name: CASH / CASH
+    url: false
+  - name: CBCA Administrators / CBCA Administrators
+    url: false
+  - name: CHAMPVA - HAC / CHAMPVA - HAC
+    url: false
+  - name: CHUBB / CHUBB
+    url: false
+  - name: CIGNA Healthcare / CIGNA
+    url: false
+  - name: CIGNA Healthcare / Open Access Plus
+    url: false
+  - name: Community health / Community health
+    url: false
+  - name: Construction / Construction
+    url: false
+  - name: Continental General Insurance Company / medicare
+    url: false
+  - name: County of Kern - Employee Medical Benefit Plan / County of Kern - Employee  Medical Benefit Plan
+    url: false
+  - name: County of Kern - Employee Medical Benefit Plan / Managed Care Systems
+    url: false
+  - name: County of Kern POS Plan / County of Kern
+    url: false
+  - name: Coventry Advantra (TX, NM, AZ) / Coventry Advantra (TX, NM, AZ)
+    url: false
+  - name: Coventry Health Care National Network (f.k.a. First Health Direct) / Medco,  FirstHealth Part D
+    url: false
+D:
+  - name: Delta Health Systems / Delta Health Systems
+    url: false
+  - name: Diocese of fresno / Diocese of fresno
+    url: false
+E:
+  - name: EBA & M Corporation (Employee Benefits Administration & Management Corporation)  / EBA & M Corporation (Employee Benefits Administration & Management Corporation)
+    url: false
+  - name: Eisis / Eisis
+    url: false
+  - name: Employers Liability Insurance / Workers Compensation
+    url: false
+F:
+  - name: Family Life Insurance Company / Family Life Insurance Company, Medicare Supplement  Plan F
+    url: false
+  - name: Farmers insurance / Farmers insurance
+    url: false
+  - name: Farmers Work Comp Center / Farmers Work Comp Center
+    url: false
+  - name: First Health Network / First Health Network
+    url: false
+  - name: First Health Network (f.k.a. CCN Managed Care Inc. & PPO OK) / United Healthcare
+    url: false
+G:
+  - name: Gab robins north / Gab robins north
+    url: false
+  - name: Gallagher Bassett / Gallagher Bassett
+    url: false
+  - name: Gallagher Bassett CA / Gallagher Bassett
+    url: false
+  - name: GEHA / GEHA
+    url: false
+  - name: Geico / Geico
+    url: false
+  - name: Gemcare Health Plan / Gemcare Health Plan
+    url: false
+  - name: Gemcare senior plan / Gemcare senior plan
+    url: false
+  - name: Gilsbar Inc. / Gilsbar Inc.
+    url: false
+  - name: GMP Employers / GMP Employers
+    url: false
+  - name: Golden empire / Golden empire
+    url: false
+  - name: Government Employees Hospital Association (GEHA) / Government Employees Hospital  Association (GEHA)
+    url: false
+  - name: Great - West Healthcare / CIGNA
+    url: false
+  - name: Group Insurance Service Center Inc. / Group Insurance Service Center Inc.
+    url: false
+  - name: Guardian Life Insurance Company of America / Guardian Life Insurance Company  of America
+    url: false
+  - name: Gulf coast claims / Gulf coast claims
+    url: false
+H:
+  - name: Health Edge Administrators / Kern Legacy Health Plan
+    url: false
+  - name: Health Edge Administrators / KVHD EPO Medical Health Plan
+    url: false
+  - name: Health Net / Health Net
+    url: false
+  - name: Health Net / Health Net, Covered California
+    url: false
+  - name: health net medical / health net medicare
+    url: false
+  - name: Health net Seniority / Health net Seniority
+    url: false
+  - name: Health Partners/HealthScope / Health Partners/HealthScope
+    url: false
+  - name: Healthcare / Healthcare
+    url: false
+  - name: healthedge / healthedge
+    url: false
+  - name: Healthscope Benefits Inc. / Los Angeles Firemen's Relief Association
+    url: false
+  - name: Healthscope Benefits Inc. / Los Angeles Firemen's Relief Association
+    url: false
+  - name: Heat & frost insurance / Heat & frost insurance
+    url: false
+  - name: Heritage Ipa / Heritage Ipa
+    url: false
+  - name: Heritage Physician Network / Heritage Physician Network
+    url: false
+  - name: HM benefits Admin inc / HM benefits Admin inc
+    url: false
+  - name: Hoffman Hospice / Hoffman Hospice
+    url: false
+  - name: Humana gold Choice / Humana gold Choice
+    url: false
+I:
+  - name: ILWU-PMA Welfare Plan / ILWU-PMA Welfare Plan
+    url: false
+  - name: IMG / IMG
+    url: false
+  - name: Insurance trust / Insurance trust
+    url: false
+J:
+  - name: JE Medicare Part B / JE Medicare Part B
+    url: false
+K:
+  - name: Kaiser / Kaiser
+    url: false
+  - name: Kaiser Foundation Health Plan of Southern CA Region / Kaiser Foundation Health  Plan of Southern CA Region
+    url: false
+  - name: Kern Health Systems / Kern Health Systems
+    url: false
+  - name: Kern Health Systems / Kern Health Systems
+    url: false
+  - name: Kern Health Systems / Kern Health
+    url: false
+  - name: Kern valley healthcare / Kern valley healthcare
+    url: false
+L:
+  - name: LA County FF / Anthem BC / LA County FF / Anthem BC
+    url: false
+  - name: LA county Firefigters plan / Firefighters
+    url: false
+  - name: Laborers Health and Welfare / Laborers Health and Welfare
+    url: false
+  - name: Laborers trust fund / Laborers trust fund
+    url: false
+  - name: LADD Ready mixed / LADD Ready mixed
+    url: false
+  - name: Liberty Mutual CA / CA
+    url: false
+  - name: Liberty Mutual Insurance Company / Liberty Mutual Insurance Company
+    url: false
+  - name: Life Investors Insurance / Life Investors Insurance
+    url: false
+  - name: Los Angeles Fireman / Los Angeles Fireman
+    url: false
+M:
+  - name: Mail Handlers Benefit Plan / Mail Handlers Benefit Plan
+    url: false
+  - name: Managed Care Systems (Gemcare) / Managed Care Systems (Gemcare)
+    url: false
+  - name: Marys Pref Health / Marys Pref Health
+    url: false
+  - name: MCS/Kern Valley HD / MCS/Kern Valley HD
+    url: false
+  - name: Medi-Cal / Medi-Cal
+    url: false
+  - name: Medi-Cal / State of California, Medi-Cal
+    url: false
+  - name: Medica Medical Claims / Medica Medical Claims
+    url: false
+  - name: Medicaid - WV - Workers Compensation / MEDICAID-WV- WORKERS COMPENSATION
+    url: false
+  - name: Medical Bed Hold / Medical Bed Hold
+    url: false
+  - name: Medical Benefits Mutual / Medical Benefits Mutual
+    url: false
+  - name: Medicare / Medicare
+    url: false
+  - name: Medicare California Jurisdiction E Part B / Medicare
+    url: false
+  - name: Medicare OP services / Medicare OP services
+    url: false
+  - name: Medicare Swing Bed / Medicare Swing Bed
+    url: false
+  - name: Mediplus / Mediplus
+    url: false
+  - name: Meritain Health / Meritain Health
+    url: false
+  - name: Midweat claims / Midweat claims
+    url: false
+  - name: MPI Health Plan / MPI Health Plan
+    url: false
+  - name: Mututal of Omaha / Mututal of Omaha
+    url: false
+  - name: MVP Health Plan of NY / MVP Health Plan of NY
+    url: false
+N:
+  - name: National assc Letter / National assc Letter
+    url: false
+  - name: National Auto Sprinkler Ind / National Auto Sprinkler Ind
+    url: false
+  - name: National Elevator Industry Benefit Plan (NEIB) / National Elevator Industry  Benefit Plan (NEIB)
+    url: false
+  - name: National Government Services / National Government Services
+    url: false
+  - name: Nationwide Health Plans / Nationwide Health Plans
+    url: false
+  - name: Noridan admin service / Noridan admin service
+    url: false
+  - name: Northern Ca bakery / Northern Ca bakery
+    url: false
+  - name: Northwest / Northwest
+    url: false
+  - name: Northwood / NPN DME / Northwood / NPN DME
+    url: false
+O:
+  - name: O.E. Health & Welfare / O.E. Health & Welfare
+    url: false
+  - name: ODS Health Plan / ODS Health Plan
+    url: false
+  - name: Operating Engineers Health & Welfare Fund / USA Seniors Care
+    url: false
+P:
+  - name: Pacificare / Pacificare
+    url: false
+  - name: Pan American Life / Pan American Life
+    url: false
+  - name: Pella Corporation / Principal value plan
+    url: false
+  - name: Pensioned Operating / Pensioned Operating
+    url: false
+  - name: PHCS / PHCS
+    url: false
+  - name: PHP TennCare / PHP TennCare
+    url: false
+  - name: Pinnacle Claims Management Inc. / Pinnacle
+    url: false
+  - name: Pinnacle Claims Management Inc. / Pinnacle Claims Management, Inc.
+    url: false
+  - name: Pioneer Provider / Pioneer Provider
+    url: false
+  - name: Plumbers & Pipe Traders / Plumbers & Pipe Traders
+    url: false
+  - name: Podiatry Plan of CA / Podiatry Plan of CA
+    url: false
+  - name: Pre-existing Condition Insurance Plan/PCIP / PCIP
+    url: false
+  - name: Pre-existing Ins plan / Pre-existing Ins plan
+    url: false
+  - name: Preferred Care / Preferred Care
+    url: false
+  - name: Prime care of corona / Prime care of corona
+    url: false
+  - name: Principal Life Insurance Co. / Principal Life Insurance Co.
+    url: false
+  - name: Progressive Auto / Progressive Auto
+    url: false
+R:
+  - name: RBMS LLC / RBMS LLC
+    url: false
+  - name: Redwood fire / Redwood fire
+    url: false
+  - name: Reliance Standard Life / Reliance Standard Life
+    url: false
+  - name: Rural Medical / Rural Medical
+    url: false
+S:
+  - name: S.R.S / S.R.S
+    url: false
+  - name: SAIF Corp / SAIF Corp
+    url: false
+  - name: Sansum Clinic / Sansum Clinic
+    url: false
+  - name: Scan Claims Dept / Scan Claims Dept
+    url: false
+  - name: Schaller Anderson of AZ LLC / Schaller Anderson of AZ LLC
+    url: false
+  - name: Seaview IPA / Seaview IPA
+    url: false
+  - name: Secure Horizons of CA - Claims / AARP MedicareComplete
+    url: false
+  - name: Sedgwick CMS-MCU WC / Sedgwick CMS-MCU WC
+    url: false
+  - name: Select Benefit Administrators (Des Moines, Iowa) / Select Benefit Administrators  (Des Moines, Iowa)
+    url: false
+  - name: Self-insured schools / Self-insured schools
+    url: false
+  - name: Senior senior / Senior senior
+    url: false
+  - name: Sharp Health Plan / Sharp Health Plan
+    url: false
+  - name: SHPS INC / SHPS INC
+    url: false
+  - name: SIS / Special Insurance Services, Inc.
+    url: false
+  - name: SISC Student / SISC Student
+    url: false
+  - name: Southern CA Bakery / Southern CA Bakery
+    url: false
+  - name: Southern CA Drug Benefit / Southern CA Drug Benefit
+    url: false
+  - name: Southern California Pipe Trades Trust Fund / Southern California Pipe Trades  Trust Fund
+    url: false
+  - name: Special Insurance Services / Special Insurance Services
+    url: false
+  - name: State compensation / State compensation
+    url: false
+  - name: State Farm Insurance Companies / State Farm Insurance Companies
+    url: false
+  - name: Sterling Option 1 / Sterling Option 1
+    url: false
+  - name: STM Clamis dept / STM Clamis dept
+    url: false
+  - name: Student Insurance - The MEGA Life & Health Insurance Company / Student Insurance  - The MEGA Life & Health Insurance Company
+    url: false
+T:
+  - name: Teamsters & Food / Teamsters & Food
+    url: false
+  - name: The hartford ins / The hartford ins
+    url: false
+  - name: The Hartford life / The Hartford
+    url: false
+  - name: The Mail Handlers Benefit Plan / The Mail Handlers Benefit Plan
+    url: false
+  - name: The Plan Holders Inc / The Plan Holders Inc
+    url: false
+  - name: Thrivent Lutherans / Thrivent Lutherans
+    url: false
+  - name: Tricare / Champus
+    url: false
+  - name: Tricare For Life / Tricare For Life
+    url: false
+  - name: Tricare For Life / Tricare
+    url: false
+  - name: Tricare North Region / Tricare North Region
+    url: false
+  - name: Tricare West Region / TRICARE WEST REGION
+    url: false
+  - name: Tristar Risk / Tristar Risk
+    url: false
+  - name: Triwest healthcare / Triwest healthcare
+    url: false
+U:
+  - name: UEF / UEF
+    url: false
+  - name: UFCW Local 1036 / UFCW Local 1036
+    url: false
+  - name: UFCW Union & Food Employers Benefit / UFCW Union & Food Employers Benefit
+    url: false
+  - name: UHP Healthcare / UHP Healthcare
+    url: false
+  - name: Unicare / UNICARE
+    url: false
+  - name: Union Pacific Railroad Employees Health Systems / Union Pacific Railroad Employees  Health Systems
+    url: false
+  - name: United American Insurance Company / Medicare supplement
+    url: false
+  - name: United American Insurance Company / United American Insurance Company
+    url: false
+  - name: United American Insurance Company / United American Insurance Company
+    url: false
+  - name: United Comm / United Comm
+    url: false
+  - name: United Healthcare / United Healthcare
+    url: false
+  - name: United Medical / United Medical
+    url: false
+  - name: United Medical / Medical
+    url: false
+  - name: United Medical Resources / United Medical Resources
+    url: false
+  - name: United World Life / United World Life
+    url: false
+  - name: Universal Care - CA / Universal Care - CA
+    url: false
+  - name: US Department of Labor / US Department of Labor
+    url: false
+  - name: US Family Health Plans / US Family Health Plans
+    url: false
+  - name: US Select choice / US Select choice
+    url: false
+  - name: USA life Insurance Co / USA life Insurance Co
+    url: false
+  - name: USAA (United States Automobile Association) / USAA (United States Automobile  Association)
+    url: false
+V:
+  - name: Vanguard Car rental / Vanguard Car rental
+    url: false
+  - name: Veterans / Veterans
+    url: false
+  - name: Veterans Choice Program / WPS-VACAA
+    url: false
+  - name: Veterans Financial / Veterans Financial
+    url: false
+  - name: Victim Compensation / Victim Compensation
+    url: false
+  - name: Victims of Crime / Victims of Crime
+    url: false
+  - name: Viking Insurance / Viking Insurance
+    url: false
+W:
+  - name: Webtpa - Hartford Life & Accident / Webtpa - Hartford Life & Accident
+    url: false
+  - name: Wellcare Private Fee for Service Plans / Wellcare Classic PDP S5967 169
+    url: false
+  - name: Wells Fargo / Wells Fargo
+    url: false
+  - name: Western Growers / Western Growers
+    url: false
+  - name: Wisconsin Physicians Service Insurance Corporation / Wisconsin Physicians  Service Insurance Corporation
+    url: false
+  - name: Workers Comp / Workers Comp
+    url: false
+Z:
+  - name: Zurich Insurance NA / Zurich Insurance NA
+    url: false

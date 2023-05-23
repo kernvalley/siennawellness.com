@@ -1,10 +1,10 @@
 import '@shgysk8zer0/kazoo/theme-cookie.js';
 import { getGooglePolicy } from '@shgysk8zer0/kazoo/trust-policies.js';
-import { ready, toggleClass, css, on } from '@shgysk8zer0/kazoo/dom.js';
+import { ready, toggleClass, css, on, map, removeClass } from '@shgysk8zer0/kazoo/dom.js';
+import { createOption } from '@shgysk8zer0/kazoo/elements.js';
 import { debounce } from '@shgysk8zer0/kazoo/events.js';
 import { init } from '@shgysk8zer0/kazoo/data-handlers.js';
 import { importGa, externalHandler, telHandler, mailtoHandler } from '@shgysk8zer0/kazoo/google-analytics.js';
-import { submitHandler } from './contact-demo.js';
 import { GA } from './consts.js';
 import './components.js';
 
@@ -47,15 +47,31 @@ if (typeof GA === 'string' && GA.length !== 0) {
 }
 
 Promise.all([
-	customElements.whenDefined('install-prompt'),
 	ready(),
-]).then(([HTMLInstallPromptElement]) => {
+]).then(() => {
 	init();
 
-	if (location.pathname.startsWith('/contact')) {
-		on('#contact-form', ['cubmit'], submitHandler);
-	}
+	if (location.pathname === '/insurance/') {
+		on('#insurance-query', 'input', debounce(({ target }) => {
+			const items = map(
+				`#${target.value.at(0).toUpperCase()} .insurance-provider`,
+				el => ({ label: el.textContent.trim(), value: el.textContent.trim() })
+			);
 
-	on('#install-btn', ['click'], () => new HTMLInstallPromptElement().show())
-		.forEach(el => el.hidden = false);
+			document.getElementById(target.getAttribute('list'))
+				.replaceChildren(... items.map(createOption));
+		}));
+
+		on('#insurance-search', 'submit', event => {
+			event.preventDefault();
+			const data = new FormData(event.target);
+			const target = document.querySelector(`[data-provider="${data.get('query')}"]`);
+
+			if (target instanceof HTMLElement) {
+				removeClass('.insurance-provider.marked', 'marked');
+				location.hash = `#${target.id}`;
+				target.classList.add('marked');
+			}
+		});
+	}
 });

@@ -12,4 +12,4 @@
 - src: ./js/index.js
   type: module
   referrerPolicy: no-referrer
-  integrity: auto
+  # integrity: auto

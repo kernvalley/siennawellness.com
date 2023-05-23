@@ -1,6 +1,7 @@
 {
   "layout": "11ty-layouts/post.html",
-  "permalink": "posts/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slugify }}/index.html",
-  "author": "chris",
-  "tags": ["posts"]
+  "permalink": "blog/{{ page.date | date: '%Y/%m/%d' }}/{{ title | slugify }}/index.html",
+  "image": "https://cdn.kernvalley.us/img/raster/missing-image.png",
+  "tags": ["posts"],
+  "itemtype": "https://schema.org/MedicalScholarlyArticle"
 }

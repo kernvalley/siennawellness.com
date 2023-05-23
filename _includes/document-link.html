@@ -1,0 +1,11 @@
+<a href="{{ documents[file].url | absolute_url }}" title="Download {{ text | default: documents[file].label | escape }} ({{ documents[file].size | escape }})" download="{{ documents[file].name }}" class="document-link">
+	{%- case documents[file].type -%}
+		{% when 'word' %}{%- include "11ty-common/icon.html" icon: "file-doc" fill: "currentColor" height: 16 width: 16 class: "icon document-icon" -%}
+		{% when 'pdf' %}{%- include "11ty-common/icon.html" icon: "file-pdf" fill: "currentColor" height: 16 width: 16 class: "icon document-icon" -%}
+		{% when 'zip' %}{%- include "11ty-common/icon.html" icon: "file-zip" fill: "currentColor" height: 16 width: 16 class: "icon document-icon" -%}
+		{% when 'media' %}{%- include "11ty-common/icon.html" icon: "file-media" fill: "currentColor" height: 16 width: 16 class: "icon document-icon" -%}
+		{% else %}{%- include "11ty-common/icon.html" icon: "file-binary" fill: "currentColor" height: 16 width: 16 class: "icon document-icon" -%}
+	{%- endcase -%}
+	<span class="document-link-name">{{ text | default: documents[file].label }} </span>
+	<span class="document-link-size"> ({{ documents[file].size }})</span>
+</a>

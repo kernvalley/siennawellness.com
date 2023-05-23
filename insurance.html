@@ -1,0 +1,32 @@
+---
+title: Insurance
+permalink: /insurance/index.html
+layout: page.html
+---
+<div class="insurance-prefixes flex row wrap">
+	{% for entry in insurance %}
+		<a href="{{ page.url }}#{{ entry[0] }}" class="insurance-prefix">{{ entry[0] }}</a>
+	{% endfor %}
+</div>
+<search>
+	<form id="insurance-search">
+		<input type="search" id="insurance-query" name="query" list="insurance-suggestions" autocomplete="off" placeholder="Type insurance provider" />
+		<datalist id="insurance-suggestions"></datalist>
+		<button type="submit" class="btn btn-accept">Search</button>
+		<button type="reset" class="btn btn-reject">Clear</button>
+	</form>
+</search>
+{% for entry in insurance %}
+	<section id="{{ entry[0] }}" class="insurance-group">
+		<h2 class="insurance-prefix">{{ entry[0] }}</h2>
+		<ul class="insurance-list" data-prefix="{{ entry[0] }}">
+			{% for provider in entry[1] %}
+				{% if provider.url %}
+					<li class="insurance-provider" data-provider="{{ provider.name | trim | escape }}"><a href="{{ provider.url }}" rel="noopener noreferrer external">{{ provider.name }} {%- include "11ty-common/icon.html" icon: "link-external" height: 16 width: 18 fill: "currentColor" -%}</a></li>
+				{% else %}
+					<li class="insurance-provider" data-provider="{{ provider.name | escape }}" id="{{ provider.name | trim | slug }}">{{ provider.name }}</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</section>
+{% endfor %}

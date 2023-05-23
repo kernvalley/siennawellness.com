@@ -1,0 +1,12 @@
+new_patient_packet:
+  name: New_Patient_Packet.doc
+  label: New Patient Packet
+  type: word
+  url: /docs/New_Patient_Packet.doc
+  size: 1.7 MB
+brain_health:
+  name: brain_health.pdf
+  label: brain health
+  type: pdf
+  url: https://www.siennawellness.com/docs/brain_health.pdf
+  size: 14.4 MB
